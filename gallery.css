@@ -1,0 +1,76 @@
+.slider-wrapper .slider-container{
+	clear: both;
+	float: left;
+}
+.kode-slide-wrapper,
+.slide-wrapper {
+    float: left;
+    margin-right: 12px;
+	cursor:pointer;
+	width:104px;
+	height:104px;
+	margin-bottom:12px;
+	position:relative;
+	z-index:10;
+}
+.slide-wrapper img{
+	width:100%;
+	height:104px;
+}
+.add-button-wrapper > span,
+.add-image-wrapper > span {
+    float: left;
+    padding: 10px;
+}
+.submit-form,
+.add-more-tabs,
+.add-more-images {
+    background: #333 none repeat scroll 0 0;
+    float: left;
+    padding: 10px;
+}
+.add-button-wrapper,
+.add-image-wrapper {
+    background: #333 none repeat scroll 0 0;
+    clear: both;
+    color: #fff;
+    float: left;   
+	cursor:pointer;
+	margin-bottom:30px;
+}
+.submit-form{
+	color: #fff;
+	padding:10px 20px;
+	border:none;
+	text-transform:capitalize;
+}
+.slider-container.ui-sortable .delete-slide:before{
+	position:absolute;
+	top:0;
+	left:0;
+	color:#fff;
+}
+.slider-container.ui-sortable .delete-slide{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.delete-slide:before{
+    content: "\f00d";
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    top: 33px;
+}
+.delete-slide{
+	font-family: 'FontAwesome';
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+}
+.upload-box-hidden{display:none;}
+/*Input Fields*/
+#slide-show-meta .inside{
+	float:left;
+	width:100%;
+}
